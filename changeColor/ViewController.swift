@@ -24,14 +24,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func sliderControl(_ sender: Any) {
+    @IBAction func sliderControl(_ sender: UISwitch) {
         redSlider.isEnabled = redSwitch.isOn
         greenSlider.isEnabled = greenSwitch.isOn
         blueSlider.isEnabled = blueSwitch.isOn
         opacitySlider.isEnabled = opacitySwitch.isOn
     }
     
-    @IBAction func changeBackground(_ sender: Any) {
+    @IBAction func changeBackground(_ sender: UISlider) {
         monkeyImage.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(opacitySlider.value))
     }
     

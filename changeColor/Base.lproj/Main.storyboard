@@ -22,9 +22,7 @@
                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                 <color key="thumbTintColor" systemColor="systemRedColor"/>
                                 <connections>
-                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="dAl-lv-ssD"/>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="valueChanged" id="1xa-Cb-SNd"/>
-                                    <action selector="sliderControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kj9-hk-eeZ"/>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="aQ6-4e-0nW"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bZ7-hA-nQQ">
@@ -33,9 +31,7 @@
                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                 <color key="thumbTintColor" systemColor="systemGreenColor"/>
                                 <connections>
-                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="uLs-lP-66R"/>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="valueChanged" id="jrZ-Jl-3fs"/>
-                                    <action selector="sliderControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="xos-19-Abt"/>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="P1v-cU-Pdx"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="q7p-Mr-6Py">
@@ -44,9 +40,7 @@
                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                 <color key="thumbTintColor" systemColor="systemBlueColor"/>
                                 <connections>
-                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="06k-M8-XTh"/>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="valueChanged" id="jg8-oD-DWE"/>
-                                    <action selector="sliderControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="s7m-5K-TL2"/>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="tq9-iQ-Aad"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rcO-al-Ysf">
@@ -54,9 +48,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="opaqueSeparatorColor"/>
                                 <connections>
-                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="S82-4d-O4d"/>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="valueChanged" id="Mri-X2-Tiq"/>
-                                    <action selector="sliderControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="YnY-3O-z5F"/>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="btf-ew-fyh"/>
                                 </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsG-zf-BkE">
